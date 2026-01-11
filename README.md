@@ -23,3 +23,4 @@ Below is a detailed diagram illustrating the architecture and flow of the Contac
 The workflow involves pushing the code to GitHub, where Jenkins picks it up, runs tests, and if successful, builds Docker images and pushes them to DockerHub. Kubernetes pulls these images and deploys them, managing the containerized environment.
 
 This setup ensures a robust and scalable deployment, adhering to best practices in DevOps and software development.
+# contactslist
