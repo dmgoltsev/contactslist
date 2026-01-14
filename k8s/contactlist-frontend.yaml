@@ -20,7 +20,8 @@ spec:
       containers:
       - name: contactlist-frontend
         # Specifying the container image to be used
-        image: drsnaj/contactlist_frontend:v2.1
+        image: dmgoltsev/contactlist_frontend:latest
+        imagePullPolicy: Always
         resources:
           limits:
             # Setting resource limits for the container

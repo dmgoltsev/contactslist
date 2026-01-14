@@ -20,7 +20,8 @@ spec:
       containers:
       - name: contactlist
         # Docker image for the container
-        image: drsnaj/contactlist_backend:v2.1
+        image: dmgoltsev/contactlist_backend:latest
+        imagePullPolicy: Always
         resources:
           limits:
             # Maximum memory and CPU resources for the container
