@@ -8,4 +8,4 @@ metadata:
     app: contactlist
 data:
   # Setting the URL for the contact list API, to be used by our front-end container to interface with the backend
-  contactlist-api: http://192.168.49.2:30050
+  contactlist-api: http://192.168.58.2:30050
